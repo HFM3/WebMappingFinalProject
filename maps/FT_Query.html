@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>WMA</title>
+    <title>2016 ToH Results</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -80,7 +80,7 @@
           map.setMapTypeId('styled_map1');	//Sets map's default type to "styled_map1". Default style can be set to: roadmap, satellite, hybrid, terrain. Only custom styles need quotes.
           // Add KML Layer
 
-          url = "https://raw.githubusercontent.com/hzxsoytc/Web-Mapping-Final/master/GeoData/2016%20ToH%20Memorial%20by%20State.kml";
+          url = "https://raw.githubusercontent.com/HFM3/WebMappingFinalProject/master/GeoData/2016%20ToH%20Memorial%20by%20State.kml";
           clearLayer();
           kmlLayer = new google.maps.KmlLayer(url, {
               map: map,
@@ -246,7 +246,7 @@
             <br>
           </div>
 
-  				<div class="tab-pane" id="results"><br>Total Sites Visited by Riders, 2016
+  				<div class="tab-pane" id="results"><br>2016 Total Per Rider Visits
             <br><br>
         		<input type="text" id="lowNum" placeholder ="Min Site Visits" value = "">&nbsp;&nbsp;
         		<input type="text" id="highNum" placeholder ="Max Site Visits" value = "">
